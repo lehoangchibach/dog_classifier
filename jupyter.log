@@ -1,0 +1,30 @@
+[I 2023-12-03 19:32:43.736 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-12-03 19:32:43.737 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-12-03 19:32:43.737 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[W 2023-12-03 19:32:43.738 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-12-03 19:32:43.739 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-12-03 19:32:43.842 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-12-03 19:32:43.850 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-12-03 19:32:43.850 LabApp] JupyterLab extension loaded from /usr/lib/python3.11/site-packages/jupyterlab
+[I 2023-12-03 19:32:43.850 LabApp] JupyterLab application directory is /usr/share/jupyter/lab
+[I 2023-12-03 19:32:43.850 LabApp] Extension Manager is 'pypi'.
+[I 2023-12-03 19:32:43.851 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-12-03 19:32:43.852 ServerApp] Serving notebooks from local directory: /home/lehoangchibach/Documents/Code/FinalProjectML
+[I 2023-12-03 19:32:43.852 ServerApp] Jupyter Server 2.11.1 is running at:
+[I 2023-12-03 19:32:43.852 ServerApp] http://bach-prestige15a11scx:8888/lab
+[I 2023-12-03 19:32:43.852 ServerApp]     http://127.0.0.1:8888/lab
+[I 2023-12-03 19:32:43.852 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-12-03 19:32:52.377 ServerApp] 404 GET /lsp/status?1701581631878 (fa26cf59be054064b35359a89547c643@10.147.17.48) 13.80ms referer=http://10.147.17.101:8888/lab/tree/Stock/stock.ipynb
+[W 2023-12-03 19:32:52.378 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-12-03 19:32:53.184 ServerApp] Kernel started: f3562a4d-7e84-4b78-a45a-35b3e26ca21c
+[IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+[I 2023-12-03 19:32:53.447 ServerApp] Connecting to kernel f3562a4d-7e84-4b78-a45a-35b3e26ca21c.
+[I 2023-12-03 19:32:53.459 ServerApp] Connecting to kernel f3562a4d-7e84-4b78-a45a-35b3e26ca21c.
+[I 2023-12-03 19:32:54.389 ServerApp] Kernel started: 3dbda95c-5ea0-4642-8f38-fce871604984
+[IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+[I 2023-12-03 19:32:55.384 ServerApp] Connecting to kernel 3dbda95c-5ea0-4642-8f38-fce871604984.
+[C 2023-12-03 19:32:56.090 ServerApp] received signal 15, stopping
+[I 2023-12-03 19:32:56.091 ServerApp] Shutting down 2 extensions
+[I 2023-12-03 19:32:56.092 ServerApp] Shutting down 2 kernels
+[I 2023-12-03 19:32:56.092 ServerApp] Kernel shutdown: 3dbda95c-5ea0-4642-8f38-fce871604984
+[I 2023-12-03 19:32:56.092 ServerApp] Kernel shutdown: f3562a4d-7e84-4b78-a45a-35b3e26ca21c
